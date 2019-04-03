@@ -1,4 +1,4 @@
-package com.core.service;
+package com.sorting.service;
 
 import com.sorting.core.Sort;
 import org.apache.commons.lang3.StringUtils;
@@ -16,17 +16,7 @@ public class SortNames {
         System.out.println("Enter comma seperated string Of items to be sorted");
         String itemString = scan.nextLine();
 
-        while (StringUtils.isNumeric(itemString) || itemString.isEmpty()){
-            if (StringUtils.isNumeric(itemString)) {
-                System.out.println("No Characters in the string, Please Re-Enter");
-                itemString = scan.nextLine();
-            }
-            if (itemString.isEmpty()) {
-                System.out.println("No STring found,Please Re-Enter ");
-                itemString = scan.nextLine();
-            }
 
-        }
 
         String newItemString = itemString.replace("\"", "");
         newItemString = newItemString.replaceAll("\\d", "");
