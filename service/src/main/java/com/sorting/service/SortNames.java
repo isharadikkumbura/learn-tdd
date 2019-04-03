@@ -17,12 +17,12 @@ public class SortNames {
         String cleanedString =  cleanString(itemString);
         List<String> nameList= Stream.of(cleanedString.split(",")).collect(Collectors.toList());
 
-
         Sort sort = new Sort();
-        sort.sortNames(nameList);
-
-
-
+        nameList = sort.sortNames(nameList);
+        Iterator<String> it = nameList.iterator();
+        while (it.hasNext()) {
+            System.out.println(it.next());
+        }
     }
 
     public static String getInputs() {
@@ -31,10 +31,10 @@ public class SortNames {
     }
 
     public static String checkInput(String itemString) {
+
         if (itemString.isEmpty()) {
             System.out.println("Empty,Try again");
             return "empty";
-
             //readInput();
         }
         if (StringUtils.isNumeric(itemString)) {
@@ -56,11 +56,6 @@ public class SortNames {
 
         String newItemString = itemString.replaceAll("\\d", "");
         newItemString = newItemString.replaceAll("[^a-zA-Z0-9,]", "");
-
-//        Iterator<String> it = nameList.iterator();
-//        while (it.hasNext()) {
-//            System.out.println(it.next());
-//        }
         return newItemString;
     }
 
