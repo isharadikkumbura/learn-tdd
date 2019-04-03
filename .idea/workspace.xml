@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36748b27-95cb-4054-a06c-326afde8dff7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/com/sorting/core/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/sorting/core/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/core/service/SortNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/sorting/service/SortNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/sorting/service/SortNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/sorting/service/SortNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/test/java/com/sorting/service/SortNamesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/test/java/com/sorting/service/SortNamesTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/core/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,25 +27,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="4" />
+          <entry key="md" value="1" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="4" />
+          <entry key="Markdown" value="1" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="713" />
+          <entry key="java" value="1681" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="713" />
+          <entry key="JAVA" value="1681" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -57,32 +58,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/sorting/core/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/sorting/service/SortNames.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service/src/test/java/com/sorting/service/SortNamesTest.java">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/sorting/service/SortNames.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="52" column="90" lean-forward="true" selection-start-line="52" selection-start-column="90" selection-end-line="52" selection-end-column="90" />
+            <state relative-caret-position="960">
+              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/test/java/com/sorting/service/SortNamesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -123,9 +134,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/core/service/SortNames.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/sorting/service/SortNamesTest.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/sorting/service/SortNames.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/sorting/core/Sort.java" />
         <option value="$PROJECT_DIR$/service/src/test/java/com/sorting/service/SortNamesTest.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/sorting/service/SortNames.java" />
       </list>
     </option>
   </component>
@@ -267,7 +278,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554282020700" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554292891416" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
@@ -302,20 +313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SortNamesTest">
-    <configuration name="SortNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.core.service.SortNames" />
-      <module name="service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.core.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SortNamesTest.testSortWithLetters">
     <configuration name="SortNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sorting.service.SortNames" />
       <module name="service" />
@@ -343,14 +341,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortNamesTest.testCleanString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sorting.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sorting.service" />
+      <option name="MAIN_CLASS_NAME" value="com.sorting.service.SortNamesTest" />
+      <option name="METHOD_NAME" value="testCleanString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortNamesTest.testNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sorting.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sorting.service" />
+      <option name="MAIN_CLASS_NAME" value="com.sorting.service.SortNamesTest" />
+      <option name="METHOD_NAME" value="testNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortNamesTest.testSortWithLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sorting.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sorting.service" />
+      <option name="MAIN_CLASS_NAME" value="com.sorting.service.SortNamesTest" />
+      <option name="METHOD_NAME" value="testSortWithLetters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortNamesTest.testSortingAlgirithm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sorting.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sorting.service" />
+      <option name="MAIN_CLASS_NAME" value="com.sorting.service.SortNamesTest" />
+      <option name="METHOD_NAME" value="testSortingAlgirithm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.SortNames" />
       <item itemvalue="JUnit.SortNamesTest" />
+      <item itemvalue="JUnit.SortNamesTest.testCleanString" />
+      <item itemvalue="JUnit.SortNamesTest.testNumbers" />
+      <item itemvalue="JUnit.SortNamesTest.testSortWithLetters" />
+      <item itemvalue="JUnit.SortNamesTest.testSortingAlgirithm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SortNamesTest.testSortWithLetters" />
+        <item itemvalue="JUnit.SortNamesTest.testNumbers" />
+        <item itemvalue="JUnit.SortNamesTest.testCleanString" />
+        <item itemvalue="JUnit.SortNamesTest.testSortingAlgirithm" />
         <item itemvalue="JUnit.SortNamesTest" />
-        <item itemvalue="Application.SortNames" />
       </list>
     </recent_temporary>
   </component>
@@ -365,47 +433,49 @@
       <option name="presentableId" value="Default" />
       <updated>1554199018685</updated>
       <workItem from="1554199020776" duration="5863000" />
-      <workItem from="1554257860317" duration="5894000" />
+      <workItem from="1554257860317" duration="15890000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortNamesTest - 2019.04.03 at 13h 31m 39s.xml">
+    <history-entry file="SortNamesTest_testCleanString - 2019.04.03 at 16h 54m 10s.xml">
+      <configuration name="SortNamesTest.testCleanString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortNamesTest - 2019.04.03 at 16h 58m 41s.xml">
       <configuration name="SortNamesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortNamesTest - 2019.04.03 at 13h 32m 02s.xml">
+    <history-entry file="SortNamesTest_testCleanString - 2019.04.03 at 16h 58m 52s.xml">
+      <configuration name="SortNamesTest.testCleanString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortNamesTest_testNumbers - 2019.04.03 at 16h 58m 57s.xml">
+      <configuration name="SortNamesTest.testNumbers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortNamesTest_testNumbers - 2019.04.03 at 16h 59m 02s.xml">
+      <configuration name="SortNamesTest.testNumbers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortNamesTest_testSortWithLetters - 2019.04.03 at 17h 02m 51s.xml">
+      <configuration name="SortNamesTest.testSortWithLetters" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SortNamesTest - 2019.04.03 at 17h 04m 56s.xml">
       <configuration name="SortNamesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortNamesTest - 2019.04.03 at 13h 50m 22s.xml">
+    <history-entry file="SortNamesTest - 2019.04.03 at 17h 08m 26s.xml">
       <configuration name="SortNamesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortNamesTest - 2019.04.03 at 13h 51m 28s.xml">
+    <history-entry file="SortNamesTest - 2019.04.03 at 17h 09m 16s.xml">
       <configuration name="SortNamesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortNamesTest - 2019.04.03 at 13h 52m 39s.xml">
-      <configuration name="SortNamesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortNamesTest - 2019.04.03 at 14h 02m 31s.xml">
-      <configuration name="SortNamesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortNamesTest - 2019.04.03 at 14h 04m 00s.xml">
-      <configuration name="SortNamesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortNamesTest - 2019.04.03 at 14h 06m 30s.xml">
-      <configuration name="SortNamesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SortNamesTest - 2019.04.03 at 14h 28m 01s.xml">
+    <history-entry file="SortNamesTest - 2019.04.03 at 17h 10m 06s.xml">
       <configuration name="SortNamesTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11757000" />
+    <option name="totallyTimeSpent" value="21753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27410358" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27410358" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -414,8 +484,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32919255" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -426,7 +496,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32919255" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24940239" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24940239" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Database" order="5" />
@@ -456,27 +526,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/sorting/core/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/sorting/service/SortNames.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/sorting/core/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        <state relative-caret-position="75">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/test/java/com/sorting/service/SortNamesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/test/java/com/sorting/service/SortNamesTest.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/sorting/service/SortNames.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="52" column="90" lean-forward="true" selection-start-line="52" selection-start-column="90" selection-end-line="52" selection-end-column="90" />
+        <state relative-caret-position="960">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
